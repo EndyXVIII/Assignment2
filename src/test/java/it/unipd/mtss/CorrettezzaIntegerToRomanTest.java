@@ -44,7 +44,7 @@ public class CorrettezzaIntegerToRomanTest {
             {"668", "DCLXVIII"},
             {"246", "CCXLVI"}, 
             {"997", "CMXCVII"}, 
-            {"782", "DCCLXXXII"}, 
+            {"783", "DCCLXXXIII"}, 
             {"509", "DIX"}, 
             {"463", "CDLXIII"},
             {"348", "CCCXLVIII"}, 
