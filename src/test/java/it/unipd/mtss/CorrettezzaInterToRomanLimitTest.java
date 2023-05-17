@@ -7,7 +7,7 @@ import org.junit.Rule;
 import org.junit.Test;
 import org.junit.rules.Timeout;
 
-public class CorrettezzaInterToRomanLimit {
+public class CorrettezzaInterToRomanLimitTest {
 
     @Test(expected = NumberUnderZeroException.class)
     public void testNumberUnderZero() throws NumberUnderZeroException, NumberOverOneThousandException {
