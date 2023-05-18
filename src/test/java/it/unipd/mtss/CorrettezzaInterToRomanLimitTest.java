@@ -28,5 +28,16 @@ public class CorrettezzaInterToRomanLimitTest {
         //Assert
         fail();
     }
+    
+    @Test(expected= NullPointerException.class)
+    public void testNullPointerExceptionIntegerToRoman() throws NullPointerException, 
+        NumberUnderZeroException, NumberOverOnethousandException{
+        //Arrange
+        Integer input=null;
+        //Action
+        IntegerToRoman.convert(input);
+        //Assert
+        fail();
+    }
 
 }
